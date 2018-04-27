@@ -12,7 +12,7 @@ const (
 
 func main() {
 	fmt.Println("binary\t\tdecimal")
-	fmt.Printf("%b\t", KB)
+	fmt.Printf("%b\t", KB) // 1024 : 1 (0000000000000001) shift left 10 bit (0000010000000000 = 2^10 = 1024)
 	fmt.Printf("%d\n", KB)
 	fmt.Printf("%b\t", MB)
 	fmt.Printf("%d\n", MB)

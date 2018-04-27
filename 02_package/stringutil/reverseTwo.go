@@ -1,11 +1,11 @@
 package stringutil
 
 func reverseTwo(s string) string {
-	r := []rune(s)
+	r := []rune(s) //store ascii code in array of int32 eg. G=71
 	for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
 		r[i], r[j] = r[j], r[i]
 	}
-	return string(r)
+	return string(r) //convert array of int to be string
 }
 
 // this demonstrates how an unexported function

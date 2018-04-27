@@ -9,9 +9,9 @@ func zero(z int) {
 }
 
 func main() {
-	x := 5
-	fmt.Printf("%p\n", &x) // address in main
-	fmt.Println(&x)        // address in main
-	zero(x)
-	fmt.Println(x) // x is still 5
+	a := 5
+	fmt.Printf("%p\n", &a) // address in main
+	fmt.Println(&a)        // address in main
+	zero(a)
+	fmt.Println(a) // x is still 5
 }
