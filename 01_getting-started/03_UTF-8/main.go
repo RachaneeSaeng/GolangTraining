@@ -7,3 +7,10 @@ func main() {
 		fmt.Printf("%d \t %b \t %x \t %q \n", i, i, i, i)
 	}
 }
+
+//Greeting is a function to
+func Greeting() {
+	x := "abc"
+	x = "def"
+	fmt.Println(x)
+}
