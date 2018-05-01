@@ -22,6 +22,8 @@ func main() {
 	fmt.Println("c - ", c)
 	fmt.Println("d - ", d)
 	fmt.Println("e - ", e)
+	fmt.Printf("%T \n", e)
+
 	fmt.Println("f - ", f)
 	fmt.Println("g - ", g)
 	fmt.Println("h - ", h)
